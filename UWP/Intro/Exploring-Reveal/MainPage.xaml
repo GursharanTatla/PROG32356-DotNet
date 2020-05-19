@@ -16,6 +16,9 @@
             <TextBox PlaceholderText="Enter your name" VerticalAlignment="Center" Width="200" />
         </StackPanel>
 
+        
+        <!-- ------------ Add code from here ----------------- -->
+        
         <StackPanel Orientation="Horizontal">
             <Grid Background="DarkGray" Margin="10" 
                   Padding="5" Name="gridCalculator">
@@ -54,5 +57,9 @@
                 <Button Grid.Row="3" Grid.Column="3" Content="=" />
             </Grid>
         </StackPanel>
+        
+        <!-- ------------ Up to here ----------------- -->
+        
+        
     </StackPanel>
 </Page>

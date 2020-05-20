@@ -1,3 +1,13 @@
+<!--
+
+This code is taken from:
+C# 8.0 and .NET Core 3.0 - Modern Cross-Platform Development
+by Mark J. Price
+Publisher: Packt Publishing
+Link: https://learning.oreilly.com/library/view/c-80-and/9781788478120/Text/building_windows_desktop_apps.xhtml#_idParaDest-747
+
+-->
+
 <Page
     x:Class="FluentUwpApp.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"

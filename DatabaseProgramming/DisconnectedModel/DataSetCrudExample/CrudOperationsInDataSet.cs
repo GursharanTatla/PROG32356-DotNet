@@ -18,7 +18,7 @@ namespace DisconnectedModel
         // constructor
         public CrudOperationsInDataSet()
         {
-            string cs = GetConnectionString("NorthwindMdf");
+            string cs = GetConnectionString("Northwind");   // change the connection string name to match yours
             string query = "Select ProductID, ProductName, UnitPrice, UnitsInStock from Products";
 
             _conn = new SqlConnection(cs);

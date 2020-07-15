@@ -130,6 +130,8 @@ namespace DisconnectedModel
 
                 _adapter.DeleteCommand = _cmdBuilder.GetDeleteCommand();
                 _adapter.Update(_tblProducts);
+                
+                FillDataSet();
             }
             else
                 Console.WriteLine("\nInvalid Product ID. Please try again.");

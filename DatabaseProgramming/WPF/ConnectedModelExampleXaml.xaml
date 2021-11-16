@@ -1,0 +1,11 @@
+<Canvas>
+    <DataGrid x:Name="grdEmployees" Height="371" Width="450" Canvas.Left="321" Canvas.Top="30"/>
+    <Label Content="First name" Canvas.Left="28" Canvas.Top="57" FontSize="20" FontWeight="Bold"/>
+    <Label Content="Last name" Canvas.Left="28" Canvas.Top="99" FontSize="20" FontWeight="Bold"/>
+    <TextBox x:Name="txtFirstname" Canvas.Left="141" Canvas.Top="66" TextWrapping="Wrap" Width="120" FontSize="20" FontWeight="Bold"/>
+    <TextBox x:Name="txtLastname" Canvas.Left="141" Canvas.Top="107" TextWrapping="Wrap" Width="120" FontSize="20" FontWeight="Bold"/>
+    <Button x:Name="btnLoad" Content="Load Grid" Canvas.Left="28" Canvas.Top="161" FontSize="20" FontWeight="Bold" Width="233" Height="40"/>
+    <Button x:Name="btnSearch" Content="Search Emp by Name" Canvas.Left="28" Canvas.Top="227" FontSize="20" FontWeight="Bold" Width="233" Height="40"/>
+    <Button x:Name="btnCount" Content="Count Table Rows" Canvas.Left="28" Canvas.Top="291" FontSize="20" FontWeight="Bold" Width="233" Height="40"/>
+    <Button x:Name="btnInsert" Content="Insert New Emp" Canvas.Left="28" Canvas.Top="361" FontSize="20" FontWeight="Bold" Width="233" Height="40"/>
+</Canvas>

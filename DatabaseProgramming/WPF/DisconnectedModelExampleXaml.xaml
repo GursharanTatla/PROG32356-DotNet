@@ -1,18 +1,18 @@
 <Canvas>
-    <DataGrid x:Name="grdProducts" Height="446" Width="474" Canvas.Left="32" Canvas.Top="35" FontSize="16"/>
-    <Button x:Name="btnLoadAllProducts" Content="Load All Products" Canvas.Left="530" Canvas.Top="35" Height="59" Width="187" FontSize="20" FontWeight="Bold"/>
-    <Label Content="ID" Canvas.Left="591" Canvas.Top="136" FontSize="20" FontWeight="Bold"/>
-    <Label Content="Name" Canvas.Left="556" Canvas.Top="178" FontSize="20" FontWeight="Bold"/>
-    <Label Content="Price" Canvas.Left="566" Canvas.Top="220" FontSize="20" FontWeight="Bold"/>
-    <Label Content="Quantity" Canvas.Left="530" Canvas.Top="262" FontSize="20" FontWeight="Bold"/>
-    <TextBox x:Name="txtId" Canvas.Left="628" Canvas.Top="140" TextWrapping="Wrap" Width="89" FontSize="20" FontWeight="Bold"/>
-    <TextBox x:Name="txtName" Canvas.Left="628" Canvas.Top="186" TextWrapping="Wrap" Width="236" FontSize="20" FontWeight="Bold"/>
-    <TextBox x:Name="txtPrice" Canvas.Left="627" Canvas.Top="228" TextWrapping="Wrap" Width="237" FontSize="20" FontWeight="Bold"/>
-    <TextBox x:Name="txtQuantity" Canvas.Left="628" Canvas.Top="270" TextWrapping="Wrap" Width="236" FontSize="20" FontWeight="Bold"/>
-    <Button x:Name="btnLoad" Content="Load" Canvas.Left="746" Canvas.Top="140" Height="29" Width="118" FontSize="20" FontWeight="Bold"/>
-    <Button x:Name="btnInsert" Content="Insert" Canvas.Left="530" Canvas.Top="340" Height="59" Width="94" FontSize="20" FontWeight="Bold"/>
-    <Button x:Name="btnUpdate" Content="Update" Canvas.Left="649" Canvas.Top="340" Height="59" Width="94" FontSize="20" FontWeight="Bold"/>
-    <Button x:Name="btnDelete" Content="Delete" Canvas.Left="770" Canvas.Top="340" Height="59" Width="94" FontSize="20" FontWeight="Bold"/>
-    <Button x:Name="btnClearData" Content="Clear Data" Canvas.Left="746" Canvas.Top="35" Height="59" Width="118" FontSize="20" FontWeight="Bold"/>
-    <Button x:Name="btnShowWindow2" Content="Show Window 2" Canvas.Left="530" Canvas.Top="422" Height="59" Width="334" FontSize="20" FontWeight="Bold"/>
-</Canvas>
+        <DataGrid x:Name="grdProducts" Height="356" Width="368" Canvas.Left="32" Canvas.Top="35" FontSize="16"/>
+        <Button x:Name="btnLoadAllProducts" Content="Load All Products" Canvas.Left="434" Canvas.Top="35" Height="40" Width="187" FontSize="20" FontWeight="Bold"/>
+        <Label Content="ID" Canvas.Left="495" Canvas.Top="110" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Name" Canvas.Left="460" Canvas.Top="152" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Price" Canvas.Left="470" Canvas.Top="194" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Quantity" Canvas.Left="434" Canvas.Top="236" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="txtId" Canvas.Left="532" Canvas.Top="114" TextWrapping="Wrap" Width="89" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="txtName" Canvas.Left="532" Canvas.Top="160" TextWrapping="Wrap" Width="236" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="txtPrice" Canvas.Left="531" Canvas.Top="202" TextWrapping="Wrap" Width="237" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="txtQuantity" Canvas.Left="532" Canvas.Top="244" TextWrapping="Wrap" Width="236" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="btnFind" Content="Find" Canvas.Left="650" Canvas.Top="114" Height="29" Width="118" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="btnInsert" Content="Insert" Canvas.Left="434" Canvas.Top="294" Height="40" Width="94" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="btnUpdate" Content="Update" Canvas.Left="553" Canvas.Top="294" Height="40" Width="94" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="btnDelete" Content="Delete" Canvas.Left="674" Canvas.Top="294" Height="40" Width="94" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="btnClearData" Content="Clear Data" Canvas.Left="650" Canvas.Top="35" Height="40" Width="118" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="btnShowWindow2" Content="Show Window 2" Canvas.Left="433" Canvas.Top="351" Height="40" Width="334" FontSize="20" FontWeight="Bold"/>
+    </Canvas>

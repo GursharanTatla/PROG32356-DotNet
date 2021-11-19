@@ -15,4 +15,4 @@
         <Button x:Name="btnDelete" Content="Delete" Canvas.Left="674" Canvas.Top="294" Height="40" Width="94" FontSize="20" FontWeight="Bold"/>
         <Button x:Name="btnClearData" Content="Clear Data" Canvas.Left="650" Canvas.Top="35" Height="40" Width="118" FontSize="20" FontWeight="Bold"/>
         <Button x:Name="btnShowWindow2" Content="Show Window 2" Canvas.Left="433" Canvas.Top="351" Height="40" Width="334" FontSize="20" FontWeight="Bold"/>
-    </Canvas>
+</Canvas>

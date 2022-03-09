@@ -20,7 +20,7 @@ Link: https://learning.oreilly.com/library/view/c-80-and/9781788478120/Text/buil
 
     <StackPanel Background="{ThemeResource SystemControlAcrylicWindowBrush}">
         <StackPanel Orientation="Horizontal" Padding="4" Background="LightGray" Name="toolbar">
-            <Button Margin="6" Padding="6" Name="ClickMeButton" Click="ClickMeButton_Click" Foreground="Black">Click Me</Button>
+            <Button Margin="6" Padding="6" Name="btnClickMe" Click="btnClickMe_Click" Foreground="Black">Click Me</Button>
 
             <TextBlock Text="First name:" VerticalAlignment="Center" Margin="4" Foreground="Black" />
             <TextBox PlaceholderText="Enter your name" VerticalAlignment="Center" Width="200" />

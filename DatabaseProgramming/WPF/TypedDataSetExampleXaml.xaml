@@ -1,17 +1,20 @@
 <Canvas>
         <DataGrid x:Name="grdProducts" Height="356" Width="368" Canvas.Left="32" Canvas.Top="35"/>
         <Button x:Name="btnLoadAllProducts" Content="Load All Products" Canvas.Left="434" Canvas.Top="35" Height="40" Width="187" FontSize="20" FontWeight="Bold" />
-        <Label Content="ID" Canvas.Left="495" Canvas.Top="120" FontSize="20" FontWeight="Bold"/>
-        <Label Content="Name" Canvas.Left="460" Canvas.Top="170" FontSize="20" FontWeight="Bold"/>
-        <Label Content="Price" Canvas.Left="471" Canvas.Top="220" FontSize="20" FontWeight="Bold"/>
-        <Label Content="Quantity" Canvas.Left="434" Canvas.Top="271" FontSize="20" FontWeight="Bold"/>
-        <TextBox x:Name="txtId" Canvas.Left="532" Canvas.Top="124" TextWrapping="Wrap" Width="89" FontSize="20" FontWeight="Bold"/>
-        <TextBox x:Name="txtName" Canvas.Left="532" Canvas.Top="178" TextWrapping="Wrap" Width="236" FontSize="20" FontWeight="Bold"/>
-        <TextBox x:Name="txtPrice" Canvas.Left="532" Canvas.Top="228" TextWrapping="Wrap" Width="237" FontSize="20" FontWeight="Bold"/>
-        <TextBox x:Name="txtQuantity" Canvas.Left="532" Canvas.Top="279" TextWrapping="Wrap" Width="236" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="btnFind" Content="Find" Canvas.Left="650" Canvas.Top="124" Height="29" Width="118" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="btnInsert" Content="Insert" Canvas.Left="434" Canvas.Top="351" Height="40" Width="94" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="btnUpdate" Content="Update" Canvas.Left="553" Canvas.Top="351" Height="40" Width="94" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="btnDelete" Content="Delete" Canvas.Left="674" Canvas.Top="351" Height="40" Width="94" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="btnClearData" Content="Clear Data" Canvas.Left="650" Canvas.Top="35" Height="40" Width="118" FontSize="20" FontWeight="Bold"/>
+        <Label Content="ID" Canvas.Left="495" Canvas.Top="110" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Name" Canvas.Left="460" Canvas.Top="152" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Price" Canvas.Left="470" Canvas.Top="194" FontSize="20" FontWeight="Bold"/>
+        <Label Content="Quantity" Canvas.Left="434" Canvas.Top="236" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="txtId" Canvas.Left="532" Canvas.Top="114" TextWrapping="Wrap" Width="89" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="txtName" Canvas.Left="532" Canvas.Top="160" TextWrapping="Wrap" Width="89" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtPrice" Canvas.Left="531" Canvas.Top="202" TextWrapping="Wrap" Width="237" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="txtQuantity" Canvas.Left="532" Canvas.Top="244" TextWrapping="Wrap" Width="236" FontSize="20" FontWeight="Bold"/>
+        <Button x:Name="btnFind" Content="Find" Canvas.Left="650" Canvas.Top="114" Height="29" Width="118" FontSize="20" FontWeight="Bold" />
+        <Button x:Name="btnInsert" Content="Insert" Canvas.Left="434" Canvas.Top="294" Height="40" Width="94" FontSize="20" FontWeight="Bold" />
+        <Button x:Name="btnUpdate" Content="Update" Canvas.Left="553" Canvas.Top="294" Height="40" Width="94" FontSize="20" FontWeight="Bold" />
+        <Button x:Name="btnDelete" Content="Delete" Canvas.Left="674" Canvas.Top="294" Height="40" Width="94" FontSize="20" FontWeight="Bold" />
+        <Button x:Name="btnClearData" Content="Clear Data" Canvas.Left="650" Canvas.Top="35" Height="40" Width="118" FontSize="20" FontWeight="Bold" />
+        <ComboBox x:Name="cmbCategories" Canvas.Left="549" Canvas.Top="349" Width="219" Height="42" FontSize="20" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Label Content="Categories" Canvas.Left="434" Canvas.Top="352" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="btnSearch" Content="Search" Canvas.Left="650" Canvas.Top="155" Height="29" Width="118" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" />
 </Canvas>

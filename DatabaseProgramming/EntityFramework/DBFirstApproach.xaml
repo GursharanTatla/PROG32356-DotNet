@@ -1,14 +1,16 @@
 <Canvas>
-        <DataGrid x:Name="grdStudents" Height="356" Width="368" Canvas.Left="32" Canvas.Top="35" IsReadOnly="True"/>
-        <Button x:Name="btnLoadData" Content="Load Data" Canvas.Left="434" Canvas.Top="35" Height="40" Width="187" FontSize="20" FontWeight="Bold"/>
-        <Label Content="ID" Canvas.Left="495" Canvas.Top="168" FontSize="20" FontWeight="Bold"/>
-        <Label Content="Name" Canvas.Left="460" Canvas.Top="218" FontSize="20" FontWeight="Bold"/>
-        <TextBox x:Name="txtId" Canvas.Left="532" Canvas.Top="172" TextWrapping="Wrap" Width="89" FontSize="20" FontWeight="Bold"/>
-        <TextBox x:Name="txtName" Canvas.Left="532" Canvas.Top="226" TextWrapping="Wrap" Width="89" FontSize="20" FontWeight="Bold" Height="29"/>
-        <Button x:Name="btnFind" Content="Find" Canvas.Left="650" Canvas.Top="172" Height="29" Width="118" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="btnInsert" Content="Insert" Canvas.Left="434" Canvas.Top="351" Height="40" Width="94" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="btnUpdate" Content="Update" Canvas.Left="553" Canvas.Top="351" Height="40" Width="94" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="btnDelete" Content="Delete" Canvas.Left="674" Canvas.Top="351" Height="40" Width="94" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="btnClearData" Content="Clear Data" Canvas.Left="650" Canvas.Top="35" Height="40" Width="118" FontSize="20" FontWeight="Bold"/>
-        <Button x:Name="btnSearch" Content="Search" Canvas.Left="650" Canvas.Top="226" Height="29" Width="118" FontSize="20" FontWeight="Bold"/>
+  <DataGrid x:Name="grdStudents" Height="356" Width="368" Canvas.Left="32" Canvas.Top="35" IsReadOnly="True"/>
+  <Button x:Name="btnLoadData" Content="Load Data" Canvas.Left="434" Canvas.Top="35" Height="40" Width="187" FontSize="20" FontWeight="Bold"/>
+  <Button x:Name="btnInsert" Content="Insert" Canvas.Left="434" Canvas.Top="351" Height="40" Width="94" FontSize="20" FontWeight="Bold"/>
+  <Button x:Name="btnUpdate" Content="Update" Canvas.Left="553" Canvas.Top="351" Height="40" Width="94" FontSize="20" FontWeight="Bold"/>
+  <Button x:Name="btnDelete" Content="Delete" Canvas.Left="674" Canvas.Top="351" Height="40" Width="94" FontSize="20" FontWeight="Bold"/>
+  <Button x:Name="btnClearData" Content="Clear Data" Canvas.Left="650" Canvas.Top="35" Height="40" Width="118" FontSize="20" FontWeight="Bold"/>
+  <Label Content="ID" Canvas.Left="495" Canvas.Top="142" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+  <Label Content="Name" Canvas.Left="460" Canvas.Top="192" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+  <TextBox x:Name="txtId" Canvas.Left="532" Canvas.Top="146" TextWrapping="Wrap" Width="89" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+  <TextBox x:Name="txtName" Canvas.Left="532" Canvas.Top="200" TextWrapping="Wrap" Width="89" FontSize="20" FontWeight="Bold" Height="29" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+  <Button x:Name="btnFind" Content="Find" Canvas.Left="650" Canvas.Top="146" Height="29" Width="118" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+  <Button x:Name="btnSearch" Content="Search" Canvas.Left="650" Canvas.Top="200" Height="29" Width="118" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+  <Label Content="Standard" Canvas.Left="431" Canvas.Top="250" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+  <ComboBox x:Name="cmbStandard" Canvas.Left="532" Canvas.Top="254" Width="236" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 </Canvas>

@@ -1,0 +1,8 @@
+<Canvas>
+    <Label Content="City Name" Canvas.Left="32" Canvas.Top="39" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <TextBox x:Name="txtCityName" Canvas.Left="125" Canvas.Top="42" Width="230" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Height="25"/>
+    <Button x:Name="btnSearch" Content="Search" Canvas.Left="360" Canvas.Top="42" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center" Width="80" Height="25"/>
+    <Label Content="Countries" Canvas.Left="472" Canvas.Top="39" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+    <ComboBox x:Name="cmbCountries" Canvas.Left="559" Canvas.Top="41" Width="200" FontSize="16" FontWeight="Bold" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+    <DataGrid x:Name="grdCities" Height="281" Width="727" d:ItemsSource="{d:SampleData ItemCount=5}" Canvas.Left="32" Canvas.Top="97" FontSize="14" FontWeight="Bold"/>
+</Canvas>
